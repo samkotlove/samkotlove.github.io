@@ -1,7 +1,287 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
+<style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    .header, .footer {
+      background-image: url("BG.png");
+      background-size: cover;
+    }
+    h1 {
+      font-size: 32px;
+    }
+    .header h1 {
+      color: #FFFFFF;
+      margin: 0;
+    }
+    .h2 {
+      font-size: 24px;
+      display: inline-block;
+    }
+    .header h2, .footer h2 {
+      color: #FFFFFF;
+    }
+    h3 {
+      font-size: 16px;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0;
+    }
+    .header h3, .footer h3 {
+      color: #FFFFFF;
+    }
+    .body h3 {
+      color: #62737B;
+    }
+    .header .phone-image {
+      width: 275px;
+    }
+    .header .purchase-buttons {
+      padding-bottom: 20px;
+    }
+    .header .purchase-buttons .col-sm-12 {
+      display: flex;
+      justify-content: center;
+    }
+    .header .purchase-buttons .first {
+      padding-bottom: 20px;
+    }
+    .header .top {
+      justify-content: center;
+    }
+
+    .vertical-align {
+      display: flex;
+      align-items: center;
+    }
+    .horizontal-align {
+      display: flex;
+      justify-content: center;
+    }
+
+    .body-icon {
+      height: 88px;
+    }
+    .body-icon-sm {
+      height: 62px;
+    }
+    .body-phone {
+      height: 400px;
+    }
+    .body-phone-sm {
+      height: 280px;
+    }
+    .download-button {
+      background-color: #2B2D32;
+      border-radius: 10px;
+      max-width: 200px;
+      height: auto;
+    }
+
+    .purchase-footer .first, .purchase-footer .second {
+      justify-content: center;
+    }
+    .purchase-footer .first {
+      padding-bottom: 20px;
+    }
+
+    .test {
+      border:1px solid #F00
+    }
+    @media (min-width: 576px) { 
+      .header .purchase-buttons .col-sm-12 {
+        display: block;
+        justify-content: center;
+      }
+      .header .top {
+        justify-content: flex-start;
+      }
+    }
+
+    @media (min-width: 768px) { 
+      .header .phone-image {
+        width: 500px;
+      }
+      .purchase-footer .first {
+        justify-content: flex-end;
+        padding-bottom: 0px;
+      }
+      .purchase-footer .second {
+        justify-content: flex-start;
+      }
+    }
+
+    @media (min-width: 992px) {
+    }
+
+    @media (min-width: 1200px) {
+      .body {
+        padding-left: 200px;
+        padding-right: 200px;
+      }
+      .header, .footer {
+        padding-left: 140px;
+        padding-right: 140px;
+      }
+      .header .purchase-buttons {
+        padding-bottom: 0px;
+      }
+    }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <!-- HEADER -->
+  <div class="header container-fluid pt-4" style=>
+    <div class="row vertical-align mb-5">
+      <div class="top col-sm-10 offset-md-1 col-md-5 col-lg-6 offset-lg-1 offset-xl-0 col-xl-7 row vertical-align">
+          <img src="BigBookLogo.png" style="width:24px"  />
+          <h1 class="pl-4">Big Book Apps</h1>
+      </div>
+      <div class="d-none d-md-block col-md-4 col-lg-3 text-right">
+          <h3>Read the Big Book Online</h3>
+      </div>
+      <div class="d-none d-md-block col-md-2 col-lg-2">
+          <h3>Contact Us</h3>
+      </div>
+    </div>
+
+    <div class="row vertical-align" style="align-items: stretch">
+      <div class="col-lg-12 col-xl-6 row vertical-align horizontal-align">
+        <img src="iphone1.png" class="phone-image" />
+      </div>
+      <div class="col-lg-12 col-xl-6 d-flex flex-column justify-content-begin align-items-center">
+          <div class="d-none d-md-block row pt-3 pb-5 horizontal-align">
+              <img src="BigBookLogo.png" style="width:76px"  />
+          </div>
+          <div class="row pb-5 container horizontal-align text-center">
+                <h2>Sobriety help in your pocket.</h2>
+                <h2>Take the Big Book wherever you go!</h2>
+          </div>
+
+          <div class="row purchase-buttons horizontal-align">
+              <div class="first col-md-6 col-sm-12">
+                <img src="AppleDownload.png" class="download-button" />
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <img src="GoogleDownload.png" class="download-button" />
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LARGE BODY -->
+  <div class="body container-fluid mb-5 d-none d-md-block" style="padding-top: 30px; padding-bottom: 30px">
+    <div class="row text-center pb-4">
+      <div class="col-md-4 col-lg-4 d-flex flex-column justify-content-begin align-items-center">
+          <img src="Read.png" class="body-icon" />
+      </div>
+      <div class="col-md-4 col-lg-4 d-flex flex-column justify-content-begin align-items-center">
+          <img src="Community.png" class="body-icon" />
+      </div>
+      <div class="col-md-4 col-lg-4 d-flex flex-column justify-content-begin align-items-center">
+          <img src="Listen.png" class="body-icon" />
+      </div>
+    </div>
+    <div class="row text-center pb-4">
+      <div class="col-md-4 col-lg-4 d-flex flex-column justify-content-begin align-items-center">
+        <h3>Experience the book that has</h3>
+        <h3>inspired many on their</h3>
+        <h3>journeys to sobriety.</h3>
+      </div>
+      <div class="col-md-4 col-lg-4 d-flex flex-column justify-content-begin align-items-center">
+        <h3>Engage with thousands of</h3>
+        <h3>other members on our forum.</h3>
+      </div>
+      <div class="col-md-4 col-lg-4 d-flex flex-column justify-content-begin align-items-center">
+        <h3>Enrich your experience</h3>
+        <h3>through audiobooks and</h3>
+        <h3>speaker tapes.</h3>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4 col-lg-4 d-flex flex-column justify-content-begin align-items-center">
+        <img src="iphone2.png" class="body-phone" />
+      </div>
+      <div class="col-md-4 col-lg-4 d-flex flex-column justify-content-begin align-items-center">
+        <img src="iphone3.png" class="body-phone" />
+      </div>
+      <div class="col-md-4 col-lg-4 d-flex flex-column justify-content-begin align-items-center">
+        <img src="iphone4.png" class="body-phone" />
+      </div>
+    </div>
+  </div>
+  <!-- SMALL BODY -->
+  <div class="body container-fluid mb-5 d-sm-block d-md-none">
+    <div class="row pt-5">
+      <div class="col-6">
+          <img src="iphone2.png" class="body-phone-sm" />
+      </div>
+      <div class="col-6 d-flex flex-column justify-content-around">
+        <div class="row horizontal-align">
+            <img src="Read.png" class="body-icon-sm" />
+        </div>
+        <div class="row horizontal-align text-center">
+            <h3 style="line-height: 30px;">Experience the book<br>that has inspired<br>many on their<br>journeys to sobriety.</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row pt-5">
+        <div class="col-6">
+            <img src="iphone3.png" class="body-phone-sm" />
+        </div>
+        <div class="col-6 d-flex flex-column justify-content-around">
+          <div class="row horizontal-align">
+              <img src="Community.png" class="body-icon-sm" />
+          </div>
+          <div class="row horizontal-align text-center">
+              <h3 style="line-height: 30px;">Engage with<br>thousands of other<br>members on our forum.</h3>
+          </div>
+        </div>
+      </div>
+
+    <div class="row pt-5">
+        <div class="col-6">
+            <img src="iphone4.png" class="body-phone-sm" />
+        </div>
+        <div class="col-6 d-flex flex-column justify-content-around">
+          <div class="row horizontal-align">
+              <img src="Listen.png" class="body-icon-sm" />
+          </div>
+          <div class="row horizontal-align text-center">
+              <h3 style="line-height: 30px;">Experience the book<br>that has inspired<br>many on their<br>journeys to sobriety.</h3>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+
+  <!-- FOOTER -->
+  <div class="footer container-fluid text-center py-5 mb-5 ">
+    <h2 class="d-none d-sm-block">"Now if I am traveling and forget <br class="d-none d-lg-block d-xl-none"/>my Big Book, I still have a very <br class="d-none d-lg-block d-xl-none"/>user <br class="d-none d-xl-block"/>friendly copy on my phone. <br class="d-none d-lg-block d-xl-none"/>Best Program app out there."</h2>
+    <h3 class="d-none d-sm-block">- iPhone User Review</h3>
+
+    <h3 class="d-lg-none">"Now if I am traveling and forget my Big<br>Book, I still have a very user friendly copy<br>on my phone. Best Program app out there."</h3>
+    <p class="d-lg-none pt-2" style="color: #FFFFFF; font-size: 12px;">- iPhone User Review</p>
+  </div>
+
+  <div class="container-fluid mb-5 purchase-footer">
+    <div class="row horizontal-align">
+      <div class="first col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex">
+          <img src="AppleDownload.png" class="download-button" />
+      </div>
+      <div class="second col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex">
+          <img src="GoogleDownload.png" class="download-button" />
+      </div>
+    </div>
+  </div>
 </body>
 </html>
