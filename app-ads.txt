@@ -10,3 +10,4 @@ adcolony.com, 5d8cbf6671c93a42, RESELLER, 1ad675c9de6b5176
 rubiconproject.com, 16356, RESELLER, 0bfd66d529a55807
 openx.com, 540785403, RESELLER, 6a698e2ec38604c6
 google.com, pub-6862671365772667, DIRECT, f08c47fec0942fa0
+mopub.com, d31270ade2144f438cd0fa9edc529810, DIRECT, 74b46c0ea83967ca
