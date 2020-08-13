@@ -22,7 +22,7 @@ function getMobileOperatingSystem() {
 function DetectAndServe(){
     let os = getMobileOperatingSystem();
     if (os == "Android") {
-        window.location.href = "https://play.google.com/store/apps/details?id=com.goodbarber.aabigbookfree&hl=en_US"; 
+        window.location.href = "market://details?id=com.goodbarber.aabigbookfree"; 
     } else if (os == "iOS") {
         window.location.href = "https://apps.apple.com/us/app/aa-big-book-unofficial/id990308161";
     } else {
