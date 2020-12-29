@@ -3,13 +3,14 @@
         "apps": [],
         "details": [
             {
-                "appID": "8PHJ8239R6.com.goodbarber.bigbookfree",
-                "paths": ["*"]
-            },
-            {
-                "appID": "8PHJ8239R6.com.goodbarber.bigbookdev",
-                "paths": ["*"]
-            },
+                "appIDs": [ "8PHJ8239R6.com.goodbarber.bigbookfree", "8PHJ8239R6.com.goodbarber.bigbookdev" ],
+                "components": [
+                    {
+                        "/": "/app/*",
+                        "comment": "Matches any URL whose path starts with /app/"
+                    }
+                ]
+            }
         ]
     }
 }
