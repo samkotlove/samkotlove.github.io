@@ -4,11 +4,11 @@
         "details": [
             {
                 "appID": "8PHJ8239R6.com.goodbarber.bigbookfree",
-                "paths": ["/"]
+                "paths": ["*"]
             },
             {
                 "appID": "8PHJ8239R6.com.goodbarber.bigbookdev",
-                "paths": ["/"]
+                "paths": ["*"]
             },
         ]
     }
