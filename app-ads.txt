@@ -1,3 +1,12 @@
+applovin.com, 108fc764c60bb2b53be2a3cd598f1a77, DIRECT
+loopme.com, 11303, RESELLER, 6c8d5f95897a5a3b
+rubiconproject.com, 16356, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 20744, RESELLER, 0bfd66d529a55807
+pubmatic.com, 158154, RESELLER, 5d62403b186f2ace
+pubmatic.com, 158862, RESELLER, 5d62403b186f2ace
+pubmatic.com, 159509, RESELLER, 5d62403b186f2ace
+xandr.com, 13799, RESELLER
+media.net, 8CUD06Z68, RESELLER
 chartboost.com, 5de42d6006fda90a43809746, DIRECT
 appnexus.com, 10005, RESELLER, f5ab79cb980f11d1
 indexexchange.com, 185578, RESELLER, 50b1c356f2c5c8fc
